@@ -34,19 +34,17 @@ All sections of this course will be delivered fully online, asynchronously (no m
 
 ### Sections
 
-**Update CRNs**
-
 CS 432 (undergraduate) sections:
 
-* CRN 33182 - WEB2 (in Hampton Roads)
-* CRN 33183 - WEB5 (in Virginia, but outside of Hampton Roads)
-* CRN 33184 - WEB7 (in the US, but outside of Virginia)
+* CRN 30966 - WEB2 (in Hampton Roads)
+* CRN 30967 - WEB5 (in Virginia, but outside of Hampton Roads)
+* CRN 30968 - WEB7 (in the US, but outside of Virginia)
 
 CS 532 (graduate) sections:
 
-* CRN 33185 - WEB2 (in Hampton Roads or in Virginia)
-* CRN 33186 - WEB5 (in Virginia, but outside of Hampton Roads)
-* CRN 33187 - WEB7 (in the US, but outside of Virginia)
+* CRN 30969 - WEB2 (in Hampton Roads or in Virginia)
+* CRN 30970 - WEB5 (in Virginia, but outside of Hampton Roads)
+* CRN 30971 - WEB7 (in the US, but outside of Virginia)
 
 ## Requirements
 
