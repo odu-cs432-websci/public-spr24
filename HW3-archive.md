@@ -29,7 +29,7 @@ Here's an example:
 Notes:
 * As described in [EC-memgator](https://github.com/odu-cs432-websci/public-spr24/blob/main/getting-started/EC-memgator.md), you **must** include the `-c` and `-a` options to specify your contact information and to use the alternate `archives.json` file.
 * When running this for all of your URIs, you might want to use the MD5 hash that you recorded earlier as part of the filename to help keep track of which TimeMaps you have.
-* You will want to add a sleep between each call to MemGator because if you make too many requests too quickly, you will get "connection refused" errors. 
+* You will want to add a sleep (at least 10-20 seconds) between each call to MemGator because if you make too many requests too quickly, you will get "connection refused" errors (or worse, get blocked by an archive). 
 
 **Important:** Obtaining TimeMaps requires contacting several different web archives for each URI-R.  *This process will take time.*
 
