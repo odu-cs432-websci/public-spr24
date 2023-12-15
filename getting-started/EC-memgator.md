@@ -16,16 +16,17 @@ Memgator is a command-line tool, so you will need to run it from Terminal (for M
 
 * MacOS: If you get a security pop-up the first time you run it, open Finder to where you've installed it.  Right-click on memgator and choose Open.  Then you'll be able to select 'Open' from the pop-up.  Once you've done that, you'll be able to run it from the command line.
 
-The [archives.json](https://raw.githubusercontent.com/odu-cs432-websci/public/main/archives.json) configuration file specifies the public web archives that MemGator will contact. We cannot use the default file, so you **must** add `-a https://raw.githubusercontent.com/odu-cs432-websci/public/main/archives.json` to the command-line when you run MemGator.
-
 Test out your installation of memgator with the following example.  
 
+```bash
+$ ./memgator-darwin-amd64 -c "ODU CS432/532 YOUR_EMAIL_ADDRESS"  -a https://raw.githubusercontent.com/odu-cs432-websci/public/main/archives.json -F 2 -f JSON https://www.cs.odu.edu/~mweigle/ > mweigle-tm.jsonon
+```
+
+Notes:
 * `$` is the command line prompt (don't type that in)
 * Replace `./memgator-darwin-amd64` with the appropriate executable for your system
-
-```bash
-$ ./memgator-darwin-amd64 -a https://raw.githubusercontent.com/odu-cs432-websci/public/main/archives.json -F 2 -f JSON https://www.cs.odu.edu/~mweigle/ > mweigle-tm.jsonon
-```
+* You must use the `-c` option to specify your contact information.  Replace `YOUR_EMAIL_ADDRESS` in the line above with your ODU email address.
+* The [archives.json](https://raw.githubusercontent.com/odu-cs432-websci/public/main/archives.json) configuration file specifies the public web archives that MemGator will contact. We cannot use the default file, so you **must** add `-a https://raw.githubusercontent.com/odu-cs432-websci/public/main/archives.json` to the command-line when you run MemGator.
 
 The result in `mweigle-tm.json` should be similar to what you see below.  
 ```bash
