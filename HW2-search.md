@@ -57,7 +57,7 @@ Sometimes boilerpy3 isn't able to extract any useful information from the downlo
 
 ### Q2. Rank with TF-IDF
 
-Choose a query term (e.g., "coronavirus") that is not a stop word (e.g, "the"), not super-general (e.g., "web"), and not used in HTML markup (e.g., "http") that is found in at least 10 of your documents.  If the term is present in more than 10 documents, choose any 10 English-language documents from *different domains* from the result set.  (Hint: You may want to use the Unix command `grep -c` on the processed files to help identify a good query -- it indicates the number of lines where the query appears.) 
+Choose a query term (e.g., "coronavirus") that is not a stop word (e.g, "the"), not super-general (e.g., "web"), and not used in HTML markup (e.g., "http") that is found in at least 10 of your documents.  If the term is present in more than 10 documents, choose any 10 **English-language** documents from *different domains* from the result set.  (Hint: You may want to use the Unix command `grep -c` on the processed files to help identify a good query -- it indicates the number of lines where the query appears.) 
 
 As per the example in the [Searching the Web slides](https://docs.google.com/presentation/d/1xHWYidHcqPljtvqcGsUXgXU7j6KEFDVXrTftHmkv6OA/edit?usp=sharing), compute TF-IDF values for the query term in each of the 10 documents and create a table with the TF, IDF, and TF-IDF values, as well as the corresponding URIs. (If you are using LaTeX, you should create a [LaTeX table](https://www.overleaf.com/learn/latex/tables).  If you are using Markdown, view the raw version of this file for an example of how to generate a table.) Rank the URIs in decreasing order by TF-IDF values.  For example:
 
@@ -77,8 +77,8 @@ You can use Google or Bing for the DF estimation:
 To count the number of words in the processed document (i.e., the denominator for TF), you can use the Unix command `wc`:
 
 ```console
-% wc -w 2fc5f9f05c7a69c6d658eb680c7fa6ee.processed
-    19261 2fc5f9f05c7a69c6d658eb680c7fa6ee.processed
+% wc -w 2fc5f9f05c7a69c6d658eb680c7fa6ee.txt
+    19261 2fc5f9f05c7a69c6d658eb680c7fa6ee.txt
 ```
 It won't be completely accurate, but it will be probably be consistently inaccurate across all files.  You can use more 
 accurate methods if you'd like, just explain how you did it.  
