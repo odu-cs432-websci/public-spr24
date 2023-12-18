@@ -52,7 +52,7 @@ Create a table showing how many URI-Rs have certain number of mementos.  For exa
 
 |Mementos | URI-Rs |
 |---------:|--------:|
-|   0     |  750   |
+|   0     |  250   |
 |   1     |  100   |
 |   7     |   50   |
 |   12     |   25   |
@@ -67,7 +67,7 @@ If you will end up with a very large table of memento counts, you can bin the nu
 
 |Mementos | URI-Rs |
 |---------:|--------:|
-|   0     |  750   |
+|   0     |  250   |
 |   1-10     |  150   |
 |   11-20     |   50   |
 |   21-30     |   47   |
